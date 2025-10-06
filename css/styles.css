@@ -484,6 +484,7 @@ img {
 .subscibe-form{
 display: flex;
 gap: 10px;
+align-items: center;
 
 }
 .subscibe-form input{
@@ -493,16 +494,22 @@ gap: 10px;
   flex: 1;
 }
 .subscribe-form button{
-  background-color: #4d5ae5;
+display: inline-flex;
+  align-items: center;
+ background-color: #4d5ae5;
   color: #ffffff;
-  border: nonen;
+  border: none;
   padding: 10px 15px;
   border-radius: 4px;
   cursor: pointer;
-  display: flex;
-  align-items: center;
   gap: 5px;
 }
 .subscribe-form button:hover{
   background-color: #404bbf;
+}
+.subscibe-form button .icon{
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
 }
