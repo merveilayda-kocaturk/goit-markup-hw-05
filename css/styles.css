@@ -430,10 +430,15 @@ img {
   padding-bottom: 32px;
 }
 .modal {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+.modal-content{
+  position: relative;
 }
 .contact-form {
   background: #ffffff;
@@ -449,6 +454,7 @@ img {
   color: #2e2f42;
 }
 .contact-form label {
+  position:relative;
   display: block;
   font-size: 14px;
   margin: 10px 0 5px;
@@ -507,9 +513,39 @@ display: inline-flex;
 .subscribe-form button:hover{
   background-color: #404bbf;
 }
-.subscibe-form button .icon{
-  display: inline-block;
-  vertical-align: middle;
+.subscibe-form button .icon-send{
+  display: flex;
+  position: absolute;
+   width: 24px;
+  height: 20px;
+  top: 2px;
+}
+.icon-close{
+ 
   width: 24px;
   height: 24px;
+
+
+}
+.icon-Vector{
+  
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  left: 3px;
+
+}
+.icon-Vector-1{
+  
+width: 13px;
+height: 13px;
+top: 5px;
+left: 3px;
+}
+.icon-Vector-2{
+  
+  width: 15px;
+  height: 12px;
+  top:6px;
+  left: 1.5px;
 }
