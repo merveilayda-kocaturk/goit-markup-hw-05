@@ -441,6 +441,7 @@ img {
   position: relative;
 }
 .contact-form {
+ 
   background: #ffffff;
   padding: 30px;
   border-radius: 8px;
@@ -454,13 +455,16 @@ img {
   color: #2e2f42;
 }
 .contact-form label {
-  position:relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
   font-size: 14px;
   margin: 10px 0 5px;
 }
 .contact-form input,
 .contact-form textarea {
+ 
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -521,14 +525,14 @@ display: inline-flex;
   top: 2px;
 }
 .icon-close{
- 
+ position: absolute;
   width: 24px;
   height: 24px;
 
 
 }
 .icon-Vector{
-  
+  position: absolute;
   width: 12px;
   height: 12px;
   top: 3px;
@@ -536,14 +540,14 @@ display: inline-flex;
 
 }
 .icon-Vector-1{
-  
+ position: absolute; 
 width: 13px;
 height: 13px;
 top: 5px;
 left: 3px;
 }
 .icon-Vector-2{
-  
+  position: absolute;
   width: 15px;
   height: 12px;
   top:6px;
