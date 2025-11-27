@@ -472,9 +472,7 @@ img {
   min-height: 80px;
   resize: none;
 }
-.checkbox {
-  font-size: 12px;
-}
+
 .contact-form button {
   width: 100%;
   padding: 12px;
@@ -527,13 +525,28 @@ img {
   height: 20px;
   margin-left: 10px;
 }
-.icon-close {
+.icon-Vector-3 {
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 8px;
+  height: 8px;
   top: 10px;
   left: 370px;
+  color: #2e2f42;
 }
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  background: #e7e9fc;
+  border: 1px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .icon-Vector {
   position: absolute;
   width: 12px;

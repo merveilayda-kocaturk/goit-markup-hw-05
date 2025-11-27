@@ -55,9 +55,9 @@
     </header>
     <div class="modal">
       <div class="modal-content">
-       
-     <svg class="icon icon-close"><use xlink:href="./images/symbol-defs.svg#icon-close"></use></svg>
-        </button>
+     <div class="modal-close">
+     <svg class="icon icon-Vector-3"><use xlink:href="./images/symbol-defs.svg#icon-Vector-3"></use></svg>
+     </div>
       <form class="contact-form">
 <p>Leave your contacts and we will call you back</p>
         <label for="name">Name
@@ -83,12 +83,12 @@
         <label for="comment">Comment</label>
         <textarea id="comment" name="comment" placeholder="Text input" required></textarea>
 
-        <div class="checkbox">
-          <label for="terms"></label>
+          <div class="checkbox">
          <input type="checkbox" id="terms" required>
-         
-          I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
-
+         <label for="terms">
+          I accept the terms and conditions of the 
+          <a href="#">Privacy Policy</a>
+        </label>
         </div>
         <button type="submit">Send </button>
       </form>
