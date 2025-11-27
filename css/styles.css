@@ -586,16 +586,22 @@ input:focus {
   outline: none;
 }
 .contact-form label:focus-within .icon-Vector {
-  color: #4d5ae5;
+  fill: #4d5ae5;
   outline: none;
 }
 .contact-form label:focus-within .icon-Vector-1 {
-  color: #4d5ae5;
+  fill: #4d5ae5;
   outline: none;
 }
 .contact-form label:focus-within .icon-Vector-2 {
-  color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .contact-form label:focus-within .input {
   border-color: #4d5ae5;
+}
+.checkbox {
+  display: flex;
+}
+#terms {
+  width: auto;
 }
