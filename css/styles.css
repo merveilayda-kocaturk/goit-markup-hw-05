@@ -440,6 +440,7 @@ img {
 .modal-content {
   position: relative;
 }
+
 .contact-form {
   background: #ffffff;
   padding: 30px;
@@ -529,10 +530,11 @@ img {
   position: absolute;
   width: 8px;
   height: 8px;
-  top: 10px;
-  left: 370px;
+  top: 8px;
+  left: 8px;
   color: #2e2f42;
 }
+
 .modal-close {
   position: absolute;
   top: 16px;
@@ -545,6 +547,9 @@ img {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+.modal-close:hover {
+  background-color: #4d5ae5;
 }
 
 .icon-Vector {
@@ -575,4 +580,22 @@ img {
   top: 50px;
   left: 20px;
   color: #2e2f42;
+}
+input:focus {
+  border-color: #4d5ae5;
+  outline: none;
+}
+.contact-form label:focus-within .icon-Vector {
+  color: #4d5ae5;
+  outline: none;
+}
+.contact-form label:focus-within .icon-Vector-1 {
+  color: #4d5ae5;
+  outline: none;
+}
+.contact-form label:focus-within .icon-Vector-2 {
+  color: #4d5ae5;
+}
+.contact-form label:focus-within .input {
+  border-color: #4d5ae5;
 }
