@@ -432,10 +432,18 @@ img {
 .modal {
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+.modal.is-open {
+  display: flex;
 }
 .modal-content {
   position: relative;
@@ -486,6 +494,7 @@ img {
 }
 .contact-form button:hover {
   background: #404bbf;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscibe-form {
   display: flex;
@@ -511,6 +520,7 @@ img {
 }
 .subscribe-form button:hover {
   background-color: #404bbf;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscibe-form button .icon-icon-send {
   display: flex;
@@ -550,6 +560,7 @@ img {
 }
 .modal-close:hover {
   background-color: #4d5ae5;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-Vector {
@@ -584,23 +595,29 @@ img {
 input:focus {
   border-color: #4d5ae5;
   outline: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form label:focus-within .icon-Vector {
   fill: #4d5ae5;
   outline: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form label:focus-within .icon-Vector-1 {
   fill: #4d5ae5;
   outline: none;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form label:focus-within .icon-Vector-2 {
   fill: #4d5ae5;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-form label:focus-within .input {
   border-color: #4d5ae5;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox {
   display: flex;
+  gap: 10px;
 }
 #terms {
   width: auto;
